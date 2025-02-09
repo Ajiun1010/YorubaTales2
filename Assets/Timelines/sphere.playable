@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1695848418174249210
+--- !u!114 &-4698299769972167782
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,7 +37,7 @@ MonoBehaviour:
   m_Version: 0
   m_Tracks:
   - {fileID: 1252810548291934178}
-  m_FixedDuration: 0
+  m_FixedDuration: 0.33333333333299997
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
@@ -67,8 +67,8 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: -1695848418174249210}
-    m_Duration: 0.3333333333333333
+    m_Asset: {fileID: -4698299769972167782}
+    m_Duration: 20.033333333333335
     m_TimeScale: 1
     m_ParentTrack: {fileID: 1252810548291934178}
     m_EaseInDuration: 0
