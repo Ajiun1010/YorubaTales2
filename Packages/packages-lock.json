@@ -317,6 +317,40 @@
       },
       "url": "https://packages.unity.com"
     },
+    "nyc.scatter.depthkit.core": {
+      "version": "file:C:/Users/Tods/Documents/Donatella/Depthkit_Expansion_Package_Phase10_021524/depthkit.core",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "nyc.scatter.depthkit.core.shadergraph": {
+      "version": "file:C:/Users/Tods/Documents/Donatella/Depthkit_Expansion_Package_Phase10_021524/depthkit.core.shadergraph",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "nyc.scatter.depthkit.core": "0.14.2",
+        "com.unity.shadergraph": "14.0.9"
+      }
+    },
+    "nyc.scatter.depthkit.studio": {
+      "version": "file:C:/Users/Tods/Documents/Donatella/Depthkit_Expansion_Package_Phase10_021524/depthkit.studio",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "nyc.scatter.depthkit.core": "0.14.3"
+      }
+    },
+    "nyc.scatter.depthkit.studio.shadergraph": {
+      "version": "file:C:/Users/Tods/Documents/Donatella/Depthkit_Expansion_Package_Phase10_021524/depthkit.studio.shadergraph",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "nyc.scatter.depthkit.core": "0.14.2",
+        "nyc.scatter.depthkit.studio": "0.10.1",
+        "nyc.scatter.depthkit.core.shadergraph": "0.6.1",
+        "com.unity.shadergraph": "14.0.9"
+      }
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
